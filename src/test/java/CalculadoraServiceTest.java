@@ -54,7 +54,7 @@ public class CalculadoraServiceTest {
 
     @Test
     public void testTrianguloDeMenorAreaDeveRetornarTriangulo1() {
-        Triangulo triangulo1 = new Triangulo(6, 4);
+        Triangulo triangulo1 = new Triangulo(2, 4);
         Triangulo triangulo2 = new Triangulo(8, 2);
         Triangulo resultado = calculadoraService.trianguloDeMenorArea(triangulo1, triangulo2);
         assertEquals(triangulo1, resultado);

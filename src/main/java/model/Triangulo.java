@@ -5,6 +5,9 @@ public class Triangulo {
     private double base;
     private double altura;
 
+    public Triangulo(double base, double altura) {
+    }
+
     public double getBase() {
         return base;
     }

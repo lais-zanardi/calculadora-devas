@@ -14,25 +14,25 @@ public class CalculadoraServiceTest {
     }
 
     @Test
-    public void testSomar() {
+    public void testSomarDeveRetornarCincoQuandoDoisMaisTres() {
         int resultado = calculadoraService.somar(2, 3);
         assertEquals(5, resultado);
     }
 
     @Test
-    public void testSubtrair() {
+    public void testSubtrairDeveRetornarCincoQuandoDezMenosCinco() {
         int resultado = calculadoraService.subtrair(10, 5);
         assertNotEquals(6, resultado);
     }
 
     @Test
-    public void testDividir() {
+    public void testDividirDeveRetornarCincoQuandoDezDivididoPorDois() {
         int resultado = calculadoraService.dividir(10, 2);
         assertFalse(resultado == 2);
     }
 
     @Test
-    public void testMultiplicar() {
+    public void testMultiplicarDeveRetornarSeisQuandoDoisVezesTres() {
         int resultado = calculadoraService.multiplicar(2, 3);
         assertSame(6, resultado);
     }
